@@ -1,0 +1,41 @@
+{
+  "name": "signalr-vue",
+  "version": "1.0.0",
+  "description": "Signalr client that supports both vue 2 & vue 3",
+  "main": "dist/signalr-vue.js",
+  "files": [
+    "dist/signalr-vue.js",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/index.js --out-file dist/signalr-vue.js",
+    "run": "node dist/signalr-vue.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alireza0sfr/signalr-vue"
+  },
+  "keywords": [
+    "signalr-vue",
+    "vue3 signalr",
+    "vue",
+    "vuejs",
+    "signalr"
+  ],
+  "author": "Alireza Safari <alireza.safaree@gmail.com> (http://alireza-safari.ir)",
+  "bugs": {
+    "url": "https://github.com/alireza0sfr/signalr-vue/issues"
+  },
+  "homepage": "https://github.com/alireza0sfr/signalr-vue#readme",
+  "dependencies": {
+    "@microsoft/signalr": "^6.0.5",
+    "tslib": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
